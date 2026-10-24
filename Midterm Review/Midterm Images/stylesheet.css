@@ -27,9 +27,9 @@
 }
 
 #byline {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
     font-size: 14px;
-    font-style:italic
+    font-style:italic;
 }
 
 .dateline, .date {
@@ -65,4 +65,24 @@ h3 {
     font-size: 24px;
 }
 
-h4 {font-size: 24px;}
+h4 {
+    font-size: 24px;}
+
+p {
+    font-family: Georgia, serif;
+    font-size: 13px;
+}
+
+
+.useful-links h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.useful-links a{
+    color: #0645ad;
+}
+
+.useful-links a:hover{
+    text-decoration: underline;
+}

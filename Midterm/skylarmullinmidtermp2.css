@@ -26,7 +26,7 @@
 }
 
 .headline {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 36px;
     font-weight:bold;
 }
@@ -62,3 +62,31 @@
     padding: 15px 25px;
     line-height:1.5;
     }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    margin: 0;
+}
+
+.related {
+    margin: 50px 0 30px;
+    padding: 25px;
+}
+
+.related h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: #103023;
+}
+
+.related a {
+    color: #103023;
+    text-decoration: underline;
+    text-decoration-color: #eb6948;
+}
+
+.related a:hover {
+    color: #b7472c;
+}

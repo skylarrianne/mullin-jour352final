@@ -73,16 +73,18 @@ body {
 .related {
     margin: 50px 0 30px;
     padding: 25px;
+    background-color: rgb(16, 48, 35);
+    color:  #eb6948;
 }
 
 .related h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 24px;
-    color: #103023;
+     color:  #eb6948;
 }
 
 .related a {
-    color: #103023;
+    color:  #eb6948;;
     text-decoration: underline;
     text-decoration-color: #eb6948;
 }

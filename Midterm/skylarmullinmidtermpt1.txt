@@ -1,0 +1,76 @@
+Questions
+1. In the sentence below, put in the necessary code that would allow
+users to click on the word Google and open Google's homepage in a new
+browser (hint: wrap google in code):
+Google is the best search engine in the world.
+
+To create a link in a html document, you start with the <a> tag. then the href is where you put the specific website you want it to take you to. then you would set target="_blank", which is what makes it link to a new tab or window instead of changing the page you are currently on. After closing the <a>, you type which word you want the link to be attached to, in this case: Google. Then close the <a> tab with </a>.
+All of this would look like this:
+<a href="https://www.google.com" target="_blank">Google</a> is the best search engine in the world.
+
+2. Describe the purpose of a DIV tag.
+
+A DIV tag is a html element that groups elements together so they can be easily organized on CSS and all styled the same.
+
+3. Write out the basic structure of an HTML page, putting the basic tags
+in the correct position. (Note: you don't need to connect it to a
+stylesheet or include DIV tags or anything like that).
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+</body>
+</html>
+
+4. There are two main "areas" or "sections" in the basic structure of an
+HTML page. In which area would you put a link to a stylesheet?
+
+I would put the link to a stylesheet at the top in the <head> section. This is usually the part of your webpage that isn't always displayed like the stylesheet or the page title. 
+
+5. In which main "area" or "section" of an HTML page would you put text,
+images or DIV tags?
+
+I would put the text and imagesin the <body> of the text. This is where all the main content on a webpage goes. I would use heading with the <h1> tags, put the text in <p> tags, images in <img src> and so on. DIV tags would help me group some of these elements together so they can be styled together on the CSS stylesheet.
+
+6. In the space below, put one DIV tag with a class of graphicbox and a
+second DIV tag with an ID of name.
+
+<div class="graphicbox"></div>
+<div id="name"></div>
+
+7. In the space below, put one DIV tag with an ID of apples and a class
+of fruit.
+
+<div id="apples" class="fruit"></div>
+
+8. In the space below, write the correct CSS code to target a DIV with a
+class of fruit. Make the color of the text black (#000000).
+
+.fruit {
+    color: #000000;
+}
+
+9. What tag would we use to include an image on an HTML page? Just give
+me the name of the tag, you don't have to write out all the code.
+
+<img src="picture file name" alt="picture description">
+
+10. Why do we use media queries?
+
+A media query is a CSS code that allows us to see webpages on different devices and what they would look like. We use them so that the website layout is adjusted to whatever device the user is looking at it on.
+
+11. What is the main difference between a serif and a sans-serif font?
+
+Serif fonts have decorative additions to them, while sans-serif means without. A common serif font is Times New Roman, while a sans-serif would be Arial. We use the two depending on what image or branding we want to project on our webpages.
+
+12. Which of the following is a hexadecimal code?
+1. #FFCC33
+2. 123,543,242
+3. 101010101
+4. -213
+
+
+Number 1 is the hexadecimal code. These codes correspond with a certain color on the colorwheel, and are used in stylesheets to color something on your webpage. They begin with a # and have 6 digits or numbers.

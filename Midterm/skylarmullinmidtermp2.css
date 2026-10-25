@@ -64,7 +64,7 @@
     }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.7;
     margin: 0;
@@ -89,4 +89,21 @@ body {
 
 .related a:hover {
     color: #b7472c;
+}
+
+
+/*images and captions styling*/
+figure {
+    margin: 30px 0;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+}
+
+figcaption {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: italic;
 }

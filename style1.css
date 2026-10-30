@@ -19,26 +19,26 @@ a:hover {
 /*page topper*/
 
 .topper {
-    background-color: #23274D;
+    background-color: #23374D;
     color: white;
 }
 
 .label {
     color: #D7C6A5;
-    font-size: 013px;
+    font-size: 13px;
 }
 
 .topper h1{
     font-family:"Playfair Display", serif;
     font-size: 64px;
-    font-weight: medium bold;
+    font-weight: 600;
     margin: 15px 0;
 }
 
 .topper h2 {
     color: #D7C6A5;
     font-size: 21px;
-    font-weight: medium bold;
+    font-weight: 600;
 }
 
 /* Headshot */
@@ -74,7 +74,7 @@ a:hover {
 
 
 /*This is for the sections headings*/
-#sectionheader{
+.sectionheader{
     font-size: 12px; 
     color: #967747; 
     font-weight: bold; 

@@ -1,47 +1,206 @@
 /*styles for my resume*/
-/*This is for the default.*/
-body, h1, h2, h3, h4, h5, p, ul, li {
+
+body {
     font-family: "Open Sans", Arial, sans-serif;
-    font-size: 1em;
-    color: #444;
-    font-weight: 400;}
+    font-size: 16px;
+    color: #333B43;
+    margin: 0;
+    line-height: 1.7;}
 
-#container{width: 100%; max-width: 1200px; margin: 0 auto; padding-bottom: 50px;}
+a {
+    color: #23374D;
+    text-decoration: none;
+}
 
-/*This is for my name*/
-#name{font-size:3em; color:#33485e; text-transform: uppercase; text-align: center;
-        border-bottom: 1px #33485e; width: 60%; min-width: 300px; margin: 0 auto;}
+a:hover {
+    color: #967747;
+}
 
-/*Photo commented out*/
+/*page topper*/
 
-/*title*/
-#title {font-weight: 600; text-align: center; margin: 20px 0 0 0;}
+.topper {
+    background-color: #23274D;
+    color: white;
+}
 
-/*This is for the sections titles*/
-#sectionheader{font-size:1.5em; color: white; background-color: #33485e; text-transform: uppercase; font-weight: 400; margin: 20px 0 10px 0; width:70%; min-width:300px;}
+.label {
+    color: #D7C6A5;
+    font-size: 013px;
+}
 
-/*This is for the job titles*/
-#jobtitle{font-size:1.25em; font-weight:600; }
+.topper h1{
+    font-family:"Playfair Display", serif;
+    font-size: 64px;
+    font-weight: medium bold;
+    margin: 15px 0;
+}
 
-/*This is for the job organization*/
-#organization{font-size: 1.25em; font-weight: 400}
+.topper h2 {
+    color: #D7C6A5;
+    font-size: 21px;
+    font-weight: medium bold;
+}
 
-/*This is for the job dates*/
-#date{font-size:1em; font-weight: 400; font-style:italic;margin:2px 0 0 0;}
+/* Headshot */
 
-/*The rest of these are just for the text that are a part of the resume*/
-.description{font-size: 1em; margin: 10px 0;}
+.headshot {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+}
 
-/*for contact list only*/
-.menu {margin: 0; padding: 0; text-align: center;}
-    
-.menu li{display: inline;}
+/*Navigation bar*/
 
-/*education*/
-#degrees {margin: 5px 0 0 0;}
+.navbar {
+    background-color: #23374D;
+}
 
-/*skills*/
-#do {margin: 5px 0 0 0;}
+.navbar-brand {
+    font-family: "Playfair Display", serif;
+    font-size: 22px;
+}
 
-/*Mission Statement*/
-.top {width: 60%; min-width: 300px; margin: 0 auto; margin-bottom: 30px;}
+.nav-link {
+    margin-left: 15px;
+    font-size: 16px;
+}
+
+.nav-link:hover {
+    color: #D7C6A5;
+}
+
+
+/*This is for the sections headings*/
+#sectionheader{
+    font-size: 12px; 
+    color: #967747; 
+    font-weight: bold; 
+    margin-bottom: 5px; 
+    letter-spacing: 2px;
+}
+
+.sectiontitle {
+    color:#23374D;
+    font-family: "Playfair Display", serif;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+/*work experience*/
+.jobs {
+    border-top: 1px solid #DDD7CC;
+    padding: 20px 0;
+}
+
+.jobs h3 {
+    color: #23374D;
+    font-family: "Playfair Display", serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.date {
+    color: #697581;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+.organization {
+    color: #536579;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Education */
+
+.degree {
+    border-top: 1px solid #DDD7CC;
+    padding: 20px 0;
+}
+
+.degree h3 {
+    color: #23374D;
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.schools {
+    color: #536579;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/*skills and contact*/
+
+.side-section {
+    background-color: #F7F4ED;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+.side-section .sectiontitle {
+    font-size: 27px;
+}
+
+.skill-heading {
+    color: #967747;
+    border-bottom: 1px solid #DDD7CC;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    padding-bottom: 8px;
+}
+
+.side-section p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.side-section i {
+    color: #967747;
+    margin-right: 8px;
+}
+
+
+/* Footer */
+
+.resume-footer {
+    background-color: #23374D;
+    color: white;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.resume-footer p {
+    font-size: 14px;
+    margin: 0;
+}
+
+
+/* Smaller screens bootstrap */
+
+@media only screen and (max-width: 767px) {
+    .topper h1 {
+        font-size: 48px;
+    }
+
+    .resume-content {
+        padding-top: 35px;
+    }
+
+    .side-section {
+        padding: 20px;
+    }
+}
